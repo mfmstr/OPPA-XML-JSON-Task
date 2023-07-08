@@ -1,0 +1,63 @@
+-------------------- XML -------------------
+1)იპოვე შეცდომა(-ები) და გაასწორე
+<FUTURAMA>
+    <ID>1<ID>
+    <Name>Bender<Name>
+    <LastName>Rodgriguez<LastName>
+    <Gender>Male<Gender>
+    <Phone>555555555<Phone>
+<FUTURAMA>
+
+შესწორებული:
+
+<FUTURAMA>
+    <ID>1</ID>
+    <Name>Bender</Name>
+    <LastName>Rodgriguez</LastName>
+    <Gender>Male</Gender>
+    <Phone>555555555</Phone>
+</FUTURAMA>
+
+აკლდა დამხურავი '/' სიმბოლოები.
+
+
+2) მოიფიქრე XML სტრუქტურა სადაც შევძლებთ შევინახოთ თანამშრომლებზე (Employees) მონაცემები. თანამშრომელი შეიძლება მუშაობდეს Tbilisi-ში ან Batumi-ში და შეიძლება განეკუთნებოდეს შემდეგ 2 დეპარტამენტს (Department)  IT და HR ხოლო დეპარტამენტში შეიძლება იყოს თანამშრომლები (Employer) შემდეგი მონაცემებით ID, Name, LastName, Gender, Phone.
+
+ეს დავალება ნახეთ XML Structure ფაილში
+
+
+-------------------- JSON --------------------
+1)იპოვე შეცდომა(-ები) და გაასწორე
+{
+  "FUTURAMA": [
+    {
+      "ID": 1
+      "Name": Bender
+      "LastName": Rodríguez
+      "Gender" Male
+      "Phone": 555555555
+    },
+  ],
+},
+
+
+შესწორებული: 
+
+{
+  "FUTURAMA": [
+    {
+      "ID": 1,
+      "Name": "Bender",
+      "LastName": "Rodríguez",
+      "Gender": "Male",
+      "Phone": "555555555"
+    }
+  ]
+}
+
+აკლდა ','-ები წყვილებს შორის და ""-ები Name,LastName,Gender,Phone-თან, რადგან უნდა წავიკითხოთ როგორც სტრიქონები(String)
+
+
+2)მოიფიქრე JSON სტრუქტურა სადაც შევძლებთ შევინახოთ თანამშრომლებზე (Employees) მონაცემები. თანამშრომელი შეიძლება მუშაობდეს Tbilisi-ში ან Batumi-ში და შეიძლება განეკუთნებოდეს შემდეგ 2 დეპარტამენტს (Department)  IT და HR ხოლო დეპარტამენტში შეიძლება იყოს თანამშრომლები (Employer) შემდეგი მონაცემებით ID, Name, LastName, Gender, Phone.
+
+ეს დავალება ნახეთ JSON Structure ფაილში.

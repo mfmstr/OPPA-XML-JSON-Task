@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "employees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string",
+            "enum": ["Male", "Female"]
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^[0-9]{9}$"
+          },
+          "department": {
+            "type": "string",
+            "enum": ["IT", "HR"]
+          },
+          "location": {
+            "type": "string",
+            "enum": ["Tbilisi", "Batumi"]
+          }
+        },
+        "required": ["id", "name", "lastName", "gender", "phone", "department", "location"]
+      }
+    }
+  },
+  "required": ["employees"]
+}

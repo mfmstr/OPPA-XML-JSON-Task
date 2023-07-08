@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="employees.xsd">
+    <employee ID="1">
+        <Name>Giorgi</Name>
+        <LastName>Kharebava</LastName>
+        <Gender>Male</Gender>
+        <Phone>551172230</Phone>
+        <City>Tbilisi</City>
+        <Departament>IT</Departament>
+    </employee>
+    <employee ID="2">
+        <Name>Ana</Name>
+        <LastName>Maisuradze</LastName>
+        <Gender>Female</Gender>
+        <Phone>599999999</Phone>
+        <City>Batumi</City>
+        <Departament>HR</Departament>
+    </employee>
+</employees>

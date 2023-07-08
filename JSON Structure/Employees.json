@@ -1,0 +1,23 @@
+{
+  "$schema": "EmployeesSchema.json",
+  "employees": [
+    {
+      "id": 1,
+      "name": "Giorgi",
+      "lastName": "Kharebava",
+      "gender": "Male",
+      "phone": "551172230",
+      "department": "IT",
+      "location": "Tbilisi"
+    },
+    {
+      "id": 2,
+      "name": "Ana",
+      "lastName": "Maisuradze",
+      "gender": "Female",
+      "phone": "599999999",
+      "department": "HR",
+      "location": "Batumi"
+    }
+  ]
+}
